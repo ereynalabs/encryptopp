@@ -1,0 +1,119 @@
+##
+# @copyright Copyright (C) 2024, Ereyna Labs Ltd. - All Rights Reserved
+# @file .gitattributes
+# @parblock
+# This file is subject to the terms and conditions defined in file 'LICENSE.md',
+# which is part of this source code package.  Proprietary and confidential.
+# @endparblock
+# @author Dave Linten <david@ereynalabs.com>
+#
+
+
+# BluePrism
+*.bprelease filter=lfs diff=lfs merge=lfs -text
+# Video
+.3g2 filter=lfs diff=lfs merge=lfs -text
+.3gp filter=lfs diff=lfs merge=lfs -text
+.amv filter=lfs diff=lfs merge=lfs -text
+.asf filter=lfs diff=lfs merge=lfs -text
+.avi filter=lfs diff=lfs merge=lfs -text
+.drc filter=lfs diff=lfs merge=lfs -text
+.flv filter=lfs diff=lfs merge=lfs -text
+.flv filter=lfs diff=lfs merge=lfs -text
+.flv filter=lfs diff=lfs merge=lfs -text
+.f4v filter=lfs diff=lfs merge=lfs -text
+.f4p filter=lfs diff=lfs merge=lfs -text
+.f4a filter=lfs diff=lfs merge=lfs -text
+.f4b filter=lfs diff=lfs merge=lfs -text
+.gif filter=lfs diff=lfs merge=lfs -text
+.gifv filter=lfs diff=lfs merge=lfs -text
+.m4v filter=lfs diff=lfs merge=lfs -text
+.mkv filter=lfs diff=lfs merge=lfs -text
+.mng filter=lfs diff=lfs merge=lfs -text
+.mov filter=lfs diff=lfs merge=lfs -text
+.qt filter=lfs diff=lfs merge=lfs -text
+.mp4 filter=lfs diff=lfs merge=lfs -text
+.m4p filter=lfs diff=lfs merge=lfs -text
+.m4v filter=lfs diff=lfs merge=lfs -text
+.mpg filter=lfs diff=lfs merge=lfs -text
+.mp2 filter=lfs diff=lfs merge=lfs -text
+.mpeg filter=lfs diff=lfs merge=lfs -text
+.mpe filter=lfs diff=lfs merge=lfs -text
+.mpv filter=lfs diff=lfs merge=lfs -text
+.mpg filter=lfs diff=lfs merge=lfs -text
+.mpeg filter=lfs diff=lfs merge=lfs -text
+.m2v filter=lfs diff=lfs merge=lfs -text
+.MTS filter=lfs diff=lfs merge=lfs -text
+.M2TS filter=lfs diff=lfs merge=lfs -text
+.TS filter=lfs diff=lfs merge=lfs -text
+.mxf filter=lfs diff=lfs merge=lfs -text
+.nsv filter=lfs diff=lfs merge=lfs -text
+.ogv filter=lfs diff=lfs merge=lfs -text
+.ogg filter=lfs diff=lfs merge=lfs -text
+.rm filter=lfs diff=lfs merge=lfs -text
+.rmvb filter=lfs diff=lfs merge=lfs -text
+.roq filter=lfs diff=lfs merge=lfs -text
+.svi filter=lfs diff=lfs merge=lfs -text
+.viv filter=lfs diff=lfs merge=lfs -text
+.vob filter=lfs diff=lfs merge=lfs -text
+.webm filter=lfs diff=lfs merge=lfs -text
+.wmv filter=lfs diff=lfs merge=lfs -text
+.yuv filter=lfs diff=lfs merge=lfs -text
+# Binaries
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.DLL filter=lfs diff=lfs merge=lfs -text
+*.a filter=lfs diff=lfs merge=lfs -text
+*.A filter=lfs diff=lfs merge=lfs -text
+*.lib filter=lfs diff=lfs merge=lfs -text
+*.LIB filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.EXE filter=lfs diff=lfs merge=lfs -text
+*.com filter=lfs diff=lfs merge=lfs -text
+*.COM filter=lfs diff=lfs merge=lfs -text
+*.msi filter=lfs diff=lfs merge=lfs -text
+*.MSI filter=lfs diff=lfs merge=lfs -text
+*.msix filter=lfs diff=lfs merge=lfs -text
+*.MSIX filter=lfs diff=lfs merge=lfs -text
+# Documents
+*.odt filter=lfs diff=lfs merge=lfs -text
+*.ODT filter=lfs diff=lfs merge=lfs -text
+*.xls filter=lfs diff=lfs merge=lfs -text
+*.XLS filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.XLSX filter=lfs diff=lfs merge=lfs -text
+*.pptx filter=lfs diff=lfs merge=lfs -text
+*.bibtex filter=lfs diff=lfs merge=lfs -text
+*.doc filter=lfs diff=lfs merge=lfs -text
+*.DOC filter=lfs diff=lfs merge=lfs -text
+*.docx filter=lfs diff=lfs merge=lfs -text
+*.DOCX filter=lfs diff=lfs merge=lfs -text
+*.dot filter=lfs diff=lfs merge=lfs -text
+*.DOT filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.PDF filter=lfs diff=lfs merge=lfs -text
+*.rtf filter=lfs diff=lfs merge=lfs -text
+*.RTF filter=lfs diff=lfs merge=lfs -text
+*.tex filter=lfs diff=lfs merge=lfs -text
+*.adoc filter=lfs diff=lfs merge=lfs -text
+*.mustache filter=lfs diff=lfs merge=lfs -text
+*.pages filter=lfs diff=lfs merge=lfs -text
+*.PAGES filter=lfs diff=lfs merge=lfs -text
+# Graphics
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
+*.ico filter=lfs diff=lfs merge=lfs -text
+*.svg filter=lfs diff=lfs merge=lfs -text
+*.eps filter=lfs diff=lfs merge=lfs -text
+# Archives
+*.7z filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text
+*.tar filter=lfs diff=lfs merge=lfs -text
+*.tgz filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+# TLS
+*.key filter=lfs diff=lfs merge=lfs -text
+*.pem filter=lfs diff=lfs merge=lfs -text
+*.crt filter=lfs diff=lfs merge=lfs -text
