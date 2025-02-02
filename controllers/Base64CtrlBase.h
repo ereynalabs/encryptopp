@@ -28,7 +28,7 @@ namespace encryptopp {
 
     protected:
         /// Ensure that subclasses inherited from this class are instantiated.
-        Base64Base();
+        Base64Base() = default;
         virtual ~Base64Base() = default;
     };
 }

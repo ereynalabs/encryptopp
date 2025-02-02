@@ -32,8 +32,7 @@ namespace encryptopp {
 
     protected:
         /// Ensure that subclasses inherited from this class are instantiated.
-        ShaBase();
-
+        ShaBase() = default;
         virtual ~ShaBase() = default;
     };
 }

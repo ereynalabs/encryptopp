@@ -32,8 +32,7 @@ namespace encryptopp {
 
     protected:
         /// Ensure that subclasses inherited from this class are instantiated.
-        JwtBase();
-
-        virtual ~JwtBase() = default;
+        JwtBase() = default;
+        ~JwtBase() override = default;
     };
 }

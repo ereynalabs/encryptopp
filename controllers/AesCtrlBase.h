@@ -43,8 +43,7 @@ namespace encryptopp {
 
     protected:
         /// Ensure that subclasses inherited from this class are instantiated.
-        AesBase();
-
+        AesBase() = default;
         ~AesBase() override = default;
     };
 }

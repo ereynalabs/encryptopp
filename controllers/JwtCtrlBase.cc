@@ -17,8 +17,6 @@
 
 namespace encryptopp {
 
-    JwtBase::JwtBase() = default;
-
     void JwtBase::encode(const models::JwtPayload &payload, const string::secure_string &secret,
                              std::function<void(const string::secure_string &token)> &&success_callback,
                              std::function<void(const string::secure_string &error_message)> &&failure_callback) {

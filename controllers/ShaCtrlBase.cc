@@ -63,8 +63,6 @@ namespace encryptopp {
         }
     }
 
-    ShaBase::ShaBase() = default;
-
     void ShaBase::sha1_hash(const string::secure_string& clear_text,
                                 std::function<void(const string::secure_string& cipher_text)>&& success_callback,
                                 std::function<void(const string::secure_string& error_message)>&& failure_callback) {

@@ -61,8 +61,6 @@ namespace encryptopp {
     //     }
     // }
 
-    RsaBase::RsaBase() = default;
-
     void RsaBase::encrypt(const string::secure_string &public_key,
                               const string::secure_string &clear_text,
                               std::function<void(const string::secure_string &cipher_text)> &&success_callback,

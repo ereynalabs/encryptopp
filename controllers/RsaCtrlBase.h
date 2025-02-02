@@ -45,8 +45,7 @@ namespace encryptopp {
                                   const string::secure_string& error_message)>&& failure_callback);
     protected:
         /// Ensure that subclasses inherited from this class are instantiated.
-        RsaBase();
-
-        virtual ~RsaBase() = default;
+        RsaBase() = default;
+        ~RsaBase() override = default;
     };
 }

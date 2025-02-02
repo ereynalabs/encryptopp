@@ -88,8 +88,6 @@ namespace encryptopp {
     using byte = unsigned char;
     using evp_cipher_ctx_free_ptr = std::unique_ptr<EVP_CIPHER_CTX, decltype(&::EVP_CIPHER_CTX_free)>;
 
-    AesBase::AesBase() = default;
-
     void AesBase::encrypt(const string::secure_string &key,
                               const string::secure_string &iv,
                               const string::secure_string &clear_text,

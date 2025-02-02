@@ -19,8 +19,6 @@
 
 namespace encryptopp {
 
-        Base64Base::Base64Base() = default;
-
     void Base64Base::encode(const encryptopp::string::secure_string& clear_text,
                                     std::function<void(const encryptopp::string::secure_string& encoded_text)>&& success_callback,
                                 std::function<void(const encryptopp::string::secure_string& error_message)>&& failure_callback,
