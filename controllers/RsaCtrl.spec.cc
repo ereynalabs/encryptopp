@@ -1,5 +1,5 @@
 /**
-* @copyright Copyright (C) 2024, Ereyna Labs Ltd. - All Rights Reserved
+* @copyright Copyright (C) 2025, Ereyna Labs Ltd. - All Rights Reserved
  * @file RsaCtrl.spec.cc
  * @parblock
  * This file is subject to the terms and conditions defined in file 'LICENSE.md',
